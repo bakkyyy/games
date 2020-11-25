@@ -1,0 +1,25 @@
+.conteiner-snake {
+	width: 80%;
+	margin-left: 10%;
+	display: flex;
+	justify-content: space-between;
+}
+
+canvas {
+	background-image: url(../assets/fon-art-trava-tekstura.jpg);
+	background-size: 700px;
+}
+
+.snake-reset {
+	margin-right: 300px;
+}
+
+.scope {
+	font-size: 40px;
+	width: 300px;
+}
+
+#head {
+	position: absolute;
+	z-index: -1;
+}

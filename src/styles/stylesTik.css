@@ -1,0 +1,125 @@
+#app {
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #2c3e50;
+}
+
+#nav {
+	padding: 10px;
+}
+
+hr {
+	color: rgb(55, 211, 55);
+}
+
+.tictak {
+	border: 1px solid gray;
+	width: 50px;
+	border-radius: 10%;
+	-webkit-border-radius: 10%;
+	-moz-border-radius: 10%;
+	-ms-border-radius: 10%;
+	-o-border-radius: 10%;
+	margin-left: 10px;
+}
+
+#nav a.router-link-exact-active img {
+	border: 2px solid rgb(55, 211, 55);
+
+}
+
+/* ---------------------------------------------- */
+
+.conteiner-tik {
+
+	width: 80%;
+	height: 600px;
+	margin-left: 10%;
+	display: flex;
+}
+
+.field {
+	width: 450px;
+	height: 420px;
+	margin: 100px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item {
+	border: 1px solid black;
+	width: 130px;
+	height: 130px;
+	margin-left: 7px;
+	background-color: white;
+}
+
+.item span {
+	display: none;
+}
+
+.item-image-o {
+	background-image: url("./../assets/circle-outline-of-small-size.png");
+	background-repeat: no-repeat;
+	background-size: 110px;
+	background-position: center;
+}
+
+.item-image-x {
+	background-image: url("./../assets/cross-sign.png");
+	background-repeat: no-repeat;
+	background-size: 110px;
+	background-position: center;
+}
+
+.button {
+	margin-top: 100px;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	border-radius: 20px;
+	border: 1px solid grey;
+	color: grey;
+	position: relative;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+.button:hover {
+	cursor: pointer;
+	color: black;
+	border: 1px solid black;
+}
+
+.panel-who-step {
+	width: 100px;
+	height: 10px;
+	margin-top: 100px;
+}
+
+.panel-who-step img {
+	width: 30px;
+}
+
+.panel-who-step span {
+	position: relative;
+	bottom: 10px;
+	right: 5px;
+}
+
+.win-panel {
+	margin-top: 100px;
+	display: block;
+	font-size: 50px;
+	font-weight: 900;
+	color: #e73e3e;
+
+}
+
+.win-panel span {
+	text-shadow: 1px -2px black;
+}
+
